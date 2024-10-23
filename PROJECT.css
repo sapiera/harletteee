@@ -1,0 +1,236 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(CHABUL.ttf);
+} 
+
+@font-face {
+  font-family: myFont2;
+  src: url(Freshman.ttf);
+}
+
+
+
+.FContainer {
+  display: flex;
+/*justify-content: center;
+  align-items: center;*/
+  background-color: #73a8ea;
+}
+
+.satu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 0 7px 25px 0 #90c2e7;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation>li {
+  list-style-type: none;
+  padding: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.navigation>li>a {
+  color: rgb(0, 6, 6);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+  background-color: rgb(97, 99, 171);
+  transition: all .8sease-in-out;
+}
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 84.3%;
+    height: 2180px;
+    background-color: snow;
+  }
+
+  .full-screen-text {
+    background-image: url("Krem\ Cokelat\ Halaman\ Website\ Kedai\ Kopi.png"); 
+    font-size: 15px;
+    font-family: myFont2;
+    width: 1399px;
+    height: 540px;
+  }
+ 
+ .full-screen-text h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1em;
+    font-size: 30px;
+    text-align: left;
+    text-align: center;
+    line-height: 1.9;
+    padding-right: 180px;
+    padding-top: 4em;
+    padding-left: 180px;
+    color: rgba(90, 27, 27, 0.63);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+
+  .dua {
+    background-color: snow;
+    font-family: 'Times New Roman', Times, serif;
+    width: 118%;
+    height: 1110px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .dua h1 {
+    margin-top: 2em;
+    padding-right: 180px;
+    padding-top: 4em;
+    padding-left: 200px;
+    font-size: 25px;
+  }
+
+  .dua p {
+    margin-top: 1em;
+    padding-right: 180px;
+    padding-top: 4em;
+    padding-left: 188px;
+    line-height: 1.8;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    padding: 5px;
+  }
+
+  .card {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.689);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px whitesmoke;
+    margin: 20px;
+  }
+
+  .card-container img{
+    width: 400px;
+    height: 300px;
+  }
+
+  .card-content {
+    padding: 16px;
+    padding-left: 12px;
+  }
+
+  .card-content h3 {
+   font-size: 20px;
+   margin-bottom: 8px;
+   display: inline-block;
+   text-align: center; 
+   margin-right: 30px;
+   color: #73a8ea;
+   list-style-type: none;
+   text-decoration: none;
+  }
+
+  .card content p {
+    font-size: 1px;
+    color: antiquewhite;
+  }
+
+
+  footer {
+    background-color: #73a8ea;
+    color: #fff;
+    padding: 10px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+  }
+
+  .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .col {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+
+  .col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .form {
+    padding: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #73a8ea;
+  }
+
+  .form input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+  }
+
+  .form button {
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+  }
